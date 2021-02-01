@@ -1,4 +1,4 @@
-package com.mr.draw;//类所在的包名
+
 
 import java.awt.Canvas;
 import java.awt.Graphics;
@@ -28,5 +28,18 @@ public class DrawPictureCanvas extends Canvas {
 	 */
 	public void update(Graphics g) {
 		paint(g);
+	}
+
+	/**
+	 *
+	 *
+	 * @description:
+	 * @param null
+	 * @return:
+	 * @author: Gavin Wang
+	 * @time: 2021/2/1 12:52
+	 */
+	public static void main(String[] args) {
+		System.out.println("hello");
 	}
 }
